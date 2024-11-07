@@ -231,8 +231,7 @@
                                         </c:if>
                                         <c:if test="${empty buildingEdit.id}">
                                             <button type="button" class="btn btn-primary" id="btnAddOrUpdateBuilding">
-                                                Thêm tòa
-                                                nhà
+                                                Thêm tòa nhà
                                             </button>
                                             <button type="button" class="btn btn-danger" id="btnCancel">Hủy</button>
                                         </c:if>

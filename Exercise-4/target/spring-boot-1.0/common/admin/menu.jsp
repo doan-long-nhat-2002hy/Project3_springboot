@@ -73,7 +73,7 @@
                 <li class="">
                     <a href='/admin/user-list'>
                         <i class="menu-icon fa fa-caret-right"></i>
-                        Danh sách tài khoản
+                        Danh sách tài khoảN
                     </a>
                     <b class="arrow"></b>
                 </li>

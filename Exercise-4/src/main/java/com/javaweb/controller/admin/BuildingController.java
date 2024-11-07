@@ -48,6 +48,16 @@ public class BuildingController {
         item1.setManagerPhone("0808079");
         item.setRentArea("100,200");
         responseList.add(item1);
+
+        BuildingSearchResponse item2 = new BuildingSearchResponse();
+        item2.setId(4L);
+        item2.setName("AC Building");
+        item2.setAddress("13 quang trung");
+        item2.setNumberOfBasement(6L);
+        item2.setManagerName("Anh Long");
+        item2.setManagerPhone("0808079");
+        item.setRentArea("100,200");
+        responseList.add(item2);
         modelAndView.addObject("buildingList", responseList);
         modelAndView.addObject("listStaffs", userService.getStaffs());
         modelAndView.addObject("districts", District.type());
